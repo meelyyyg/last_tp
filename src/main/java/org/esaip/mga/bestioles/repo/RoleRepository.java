@@ -1,4 +1,7 @@
 package org.esaip.mga.bestioles.repo;
 
-public interface RoleRepository {
+import org.esaip.mga.bestioles.bo.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoleRepository extends JpaRepository<Role, Integer> {
 }

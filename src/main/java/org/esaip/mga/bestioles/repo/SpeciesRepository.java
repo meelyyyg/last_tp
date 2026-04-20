@@ -1,4 +1,7 @@
 package org.esaip.mga.bestioles.repo;
 
-public interface SpeciesRepository {
+import org.esaip.mga.bestioles.bo.Species;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SpeciesRepository extends JpaRepository<Species, Integer> {
 }
